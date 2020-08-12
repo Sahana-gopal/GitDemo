@@ -1,0 +1,7 @@
+15:01:01.076 [TestNG-tests-3] INFO  testcases.Base - practice page is successfully opened
+15:01:05.075 [TestNG-tests-1] INFO  testcases.Base - Browser launched
+15:01:20.181 [TestNG-tests-1] INFO  testcases.Base - Incorrect credentials
+15:03:43.838 [TestNG-tests-1] INFO  testcases.Base - Browser launched
+15:04:29.092 [TestNG-tests-1] INFO  testcases.Base - Incorrect credentials
+15:04:32.802 [TestNG-tests-3] INFO  testcases.Base - practice page is successfully opened
+15:04:39.899 [TestNG-tests-1] INFO  testcases.Base - Browser launched

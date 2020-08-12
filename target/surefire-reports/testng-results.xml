@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="86825" started-at="2020-08-12T15:26:00 IST" finished-at="2020-08-12T15:27:27 IST">
+    <groups>
+    </groups>
+    <test name="Validating Header" duration-ms="55414" started-at="2020-08-12T15:26:00 IST" finished-at="2020-08-12T15:26:56 IST">
+      <class name="testcases.HeaderVerification">
+        <test-method status="PASS" signature="verifyHeader()[pri:0, instance:testcases.HeaderVerification@710636b0]" name="verifyHeader" duration-ms="55295" started-at="2020-08-12T15:26:00 IST" finished-at="2020-08-12T15:26:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHeader -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.HeaderVerification@710636b0]" name="tearDown" is-config="true" duration-ms="87" started-at="2020-08-12T15:26:56 IST" finished-at="2020-08-12T15:26:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.HeaderVerification -->
+    </test> <!-- Validating Header -->
+    <test name="Validating HomePage" duration-ms="86825" started-at="2020-08-12T15:26:00 IST" finished-at="2020-08-12T15:27:27 IST">
+      <class name="testcases.HomePage">
+        <test-method status="PASS" signature="baseNavigation(java.lang.String, java.lang.String)[pri:0, instance:testcases.HomePage@35841320]" name="baseNavigation" duration-ms="53344" started-at="2020-08-12T15:26:00 IST" data-provider="getData" finished-at="2020-08-12T15:26:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jSHfksa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseNavigation -->
+        <test-method status="PASS" signature="baseNavigation(java.lang.String, java.lang.String)[pri:0, instance:testcases.HomePage@35841320]" name="baseNavigation" duration-ms="32927" started-at="2020-08-12T15:26:54 IST" data-provider="getData" finished-at="2020-08-12T15:27:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gasgtdj]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[56789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseNavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.HomePage@35841320]" name="tearDown" is-config="true" duration-ms="517" started-at="2020-08-12T15:27:27 IST" finished-at="2020-08-12T15:27:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.HomePage -->
+    </test> <!-- Validating HomePage -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="151976" started-at="2020-08-12T14:58:48 IST" finished-at="2020-08-12T15:01:20 IST">
+    <groups>
+    </groups>
+    <test name="Validating Title Page" duration-ms="116735" started-at="2020-08-12T14:58:48 IST" finished-at="2020-08-12T15:00:45 IST">
+      <class name="testcases.ValidateTitle">
+        <test-method status="FAIL" signature="verifyTitle()[pri:0, instance:testcases.ValidateTitle@46d59067]" name="verifyTitle" duration-ms="114531" started-at="2020-08-12T14:58:48 IST" finished-at="2020-08-12T15:00:42 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [FEATURED 123COURSES] but found [FEATURED COURSES]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [FEATURED 123COURSES] but found [FEATURED COURSES]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at org.testng.Assert.assertEquals(Assert.java:585)
+at testcases.ValidateTitle.verifyTitle(ValidateTitle.java:26)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:767)
+at org.testng.TestRunner.run(TestRunner.java:588)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.ValidateTitle@46d59067]" name="tearDown" is-config="true" duration-ms="645" started-at="2020-08-12T15:00:44 IST" finished-at="2020-08-12T15:00:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.ValidateTitle -->
+    </test> <!-- Validating Title Page -->
+    <test name="Validating Header" duration-ms="135145" started-at="2020-08-12T14:58:48 IST" finished-at="2020-08-12T15:01:03 IST">
+      <class name="testcases.HeaderVerification">
+        <test-method status="PASS" signature="verifyHeader()[pri:0, instance:testcases.HeaderVerification@2f953efd]" name="verifyHeader" duration-ms="132828" started-at="2020-08-12T14:58:48 IST" finished-at="2020-08-12T15:01:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHeader -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.HeaderVerification@2f953efd]" name="tearDown" is-config="true" duration-ms="2265" started-at="2020-08-12T15:01:01 IST" finished-at="2020-08-12T15:01:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.HeaderVerification -->
+    </test> <!-- Validating Header -->
+    <test name="Validating HomePage" duration-ms="151976" started-at="2020-08-12T14:58:48 IST" finished-at="2020-08-12T15:01:20 IST">
+      <class name="testcases.HomePage">
+        <test-method status="PASS" signature="baseNavigation(java.lang.String, java.lang.String)[pri:0, instance:testcases.HomePage@1b1cfb87]" name="baseNavigation" duration-ms="128649" started-at="2020-08-12T14:58:48 IST" data-provider="getData" finished-at="2020-08-12T15:00:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jSHfksa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseNavigation -->
+        <test-method status="PASS" signature="baseNavigation(java.lang.String, java.lang.String)[pri:0, instance:testcases.HomePage@1b1cfb87]" name="baseNavigation" duration-ms="23181" started-at="2020-08-12T15:00:57 IST" data-provider="getData" finished-at="2020-08-12T15:01:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gasgtdj]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[56789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseNavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.HomePage@1b1cfb87]" name="tearDown" is-config="true" duration-ms="86" started-at="2020-08-12T15:01:20 IST" finished-at="2020-08-12T15:01:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.HomePage -->
+    </test> <!-- Validating HomePage -->
+  </suite> <!-- Suite -->
+</testng-results>
